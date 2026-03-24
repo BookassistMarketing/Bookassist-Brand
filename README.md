@@ -1,2 +1,2 @@
 # Bookassist-Brand
-Book assist brand information
+Bookassist brand information
