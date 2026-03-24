@@ -132,6 +132,27 @@ You do not need to remind it — the brand rules are loaded from your `CLAUDE.md
 
 ---
 
+## Recommended Claude Code Plugins
+
+Once Claude Code is installed, run `/plugin` in Claude Code and search for each of these to install:
+
+| Plugin | Purpose |
+|---|---|
+| `frontend-design` | Production-grade UI and web design |
+| `superpowers` | Advanced planning, debugging, and development workflows |
+| `playwright` | Browser automation and testing |
+| `github` | GitHub integration |
+| `skill-creator` | Create and manage custom Claude Code skills |
+| `asana` | Manage marketing tasks and campaigns directly from Claude Code |
+| `hookify` | Automate repetitive behaviours and prevent unwanted Claude actions |
+| `slack` | Draft and send Slack messages directly from Claude Code |
+| `linear` | Issue and project tracking |
+| `context7` | Pulls in up-to-date documentation for researching tools |
+
+After installing all plugins run `/reload-plugins` to activate them.
+
+---
+
 ## Key contacts
 
 Add team contacts here as needed.
