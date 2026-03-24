@@ -106,6 +106,18 @@ git clone https://github.com/BookassistMarketing/Bookassist-Brand.git
 
 ---
 
+## Verify your setup
+
+Once everything is installed, run this in your terminal to confirm everything is working:
+
+```bash
+node --version && npm --version && git --version && claude --version
+```
+
+You should see version numbers returned for all four. If anything is missing or shows an error, go back to the relevant step above and reinstall.
+
+---
+
 ## Using Claude Code for brand content
 
 Once set up, Claude Code will automatically follow Bookassist brand guidelines whenever you create:
