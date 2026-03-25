@@ -106,6 +106,25 @@ git clone https://github.com/BookassistMarketing/Bookassist-Brand.git
 
 ---
 
+### 7. Install GitHub Desktop and download the repository
+
+GitHub Desktop is a visual tool that allows you to manage, sync, and update the repository without using terminal commands. It is recommended for all team members.
+
+Download from: https://desktop.github.com
+
+Run through the installer, then:
+
+1. Open GitHub Desktop
+2. Click **Sign in to GitHub.com** and log in with your GitHub account
+3. Once signed in, go to **File > Clone Repository**
+4. Click the **URL** tab and paste: `https://github.com/BookassistMarketing/Bookassist-Brand`
+5. Choose where to save it on your computer (e.g. `Documents/GitHub/`)
+6. Click **Clone**
+
+> **Important:** You must clone the repository to your computer before you can work with any of the files locally. GitHub Desktop does not automatically download repositories when you log in — you must clone each one manually using the steps above. Cloning only needs to be done once per repository per device.
+
+---
+
 ## Verify your setup
 
 Once everything is installed, run this in your terminal to confirm everything is working:
