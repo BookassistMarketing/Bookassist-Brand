@@ -1,0 +1,108 @@
+CLAUDE CODE — SKILLS & PLUGINS CHEAT SHEET
+==========================================
+
+
+==========================================
+SKILLS
+==========================================
+Skills are invoked by typing the skill name as a slash command.
+
+NAME                        COMMAND
+--------------------------  ---------------------------
+Social Media Posts          /social-media-posts
+Email Creation              /email-creation
+Article Creation            /article-creation
+Translation                 /translation-v3
+
+
+==========================================
+PLUGINS
+==========================================
+Plugins extend Claude Code with additional tools and workflows.
+Each plugin contains one or more skills listed below.
+
+--------------------------
+PLUGIN: superpowers
+--------------------------
+NAME                        COMMAND
+--------------------------  ---------------------------
+Brainstorming               /superpowers:brainstorm
+Write a Plan                /superpowers:writing-plans
+Execute a Plan              /superpowers:executing-plans
+Parallel Agents             /superpowers:dispatching-parallel-agents
+Subagent Development        /superpowers:subagent-driven-development
+Systematic Debugging        /superpowers:systematic-debugging
+Test Driven Development     /superpowers:test-driven-development
+Finish a Branch             /superpowers:finishing-a-development-branch
+Requesting Code Review      /superpowers:requesting-code-review
+Receiving Code Review       /superpowers:receiving-code-review
+Verification                /superpowers:verification-before-completion
+Git Worktrees               /superpowers:using-git-worktrees
+Writing Skills              /superpowers:writing-skills
+
+--------------------------
+PLUGIN: skill-creator
+--------------------------
+NAME                        COMMAND
+--------------------------  ---------------------------
+Skill Creator               /skill-creator:skill-creator
+
+--------------------------
+PLUGIN: hookify
+--------------------------
+NAME                        COMMAND
+--------------------------  ---------------------------
+Create a Hook               /hookify:hookify
+List Hooks                  /hookify:list
+Configure Hooks             /hookify:configure
+Write Hook Rules            /hookify:writing-rules
+Hookify Help                /hookify:help
+
+--------------------------
+PLUGIN: frontend-design
+--------------------------
+NAME                        COMMAND
+--------------------------  ---------------------------
+Frontend Design             /frontend-design:frontend-design
+
+--------------------------
+PLUGIN: playwright
+--------------------------
+NAME                        COMMAND
+--------------------------  ---------------------------
+Browser automation via MCP tools (no slash command — tools load automatically)
+
+--------------------------
+PLUGIN: github
+--------------------------
+NAME                        COMMAND
+--------------------------  ---------------------------
+GitHub integration via MCP tools (no slash command — tools load automatically)
+
+--------------------------
+PLUGIN: asana
+--------------------------
+NAME                        COMMAND
+--------------------------  ---------------------------
+Asana integration via MCP tools (no slash command — tools load automatically)
+
+--------------------------
+PLUGIN: security-guidance
+--------------------------
+NAME                        COMMAND
+--------------------------  ---------------------------
+Security guidance loaded automatically as context (no slash command)
+
+
+==========================================
+QUICK TIPS
+==========================================
+- Type a slash command and press Enter to invoke a skill
+- Skills guide you through a structured workflow step by step
+- Plugins marked "MCP tools" give Claude extra abilities automatically
+- To install new plugins: type /plugin inside Claude Code and search by name
+- To reload after installing: type /reload-plugins
+
+==========================================
+END
+==========================================
